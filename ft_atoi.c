@@ -6,10 +6,11 @@
 /*   By: agomez-c <agomez-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 17:05:27 by agomez-c          #+#    #+#             */
-/*   Updated: 2022/03/28 17:06:12 by agomez-c         ###   ########.fr       */
+/*   Updated: 2022/03/31 16:39:26 by agomez-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 /*#include <stdlib.h>
 #include <stdio.h>
 
