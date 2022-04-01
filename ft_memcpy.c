@@ -6,7 +6,7 @@
 /*   By: agomez-c <agomez-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 14:50:25 by agomez-c          #+#    #+#             */
-/*   Updated: 2022/03/31 17:13:30 by agomez-c         ###   ########.fr       */
+/*   Updated: 2022/04/01 13:41:19 by agomez-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,9 +37,9 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	size_t				i;
+	size_t	i;
 
-	if (!dst && !src)
+	if (!dst || !src)
 		return (NULL);
 	i = 0;
 	while (i < n)
